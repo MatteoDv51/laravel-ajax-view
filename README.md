@@ -1,5 +1,6 @@
 # Simply create a blade view integrating an ajax script with the csrf token
 
+![image](https://user-images.githubusercontent.com/104217825/234743332-088aa023-1720-41de-926c-d7d919271e45.png)
 
 
 ## Installation
