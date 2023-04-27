@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "matteodv51/laravel-ajax-view",
+    "description": "Simply create a blade view integrating an ajax script with the csrf token",
     "keywords": [
-        ":vendor_name",
+        "MatteoDv51",
         "laravel",
-        ":package_slug"
+        "laravel-ajax-view"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/matteodv51/laravel-ajax-view",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Matteo Berlanas",
+            "email": "matteo.berlanas@cogenio.com",
             "role": "Developer"
         }
     ],
@@ -23,25 +23,19 @@
     "require-dev": {
         "laravel/pint": "^1.0",
         "nunomaduro/collision": "^7.9",
-        "nunomaduro/larastan": "^2.0.1",
         "orchestra/testbench": "^8.0",
         "pestphp/pest": "^2.0",
         "pestphp/pest-plugin-arch": "^2.0",
-        "pestphp/pest-plugin-laravel": "^2.0",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "pestphp/pest-plugin-laravel": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "MatteoDv51\\LaravelAjaxView\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "MatteoDv51\\LaravelAjaxView\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "MatteoDv51\\LaravelAjaxView\\LaravelAjaxViewServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelAjaxView": "MatteoDv51\\LaravelAjaxView\\Facades\\LaravelAjaxView"
             }
         }
     },
